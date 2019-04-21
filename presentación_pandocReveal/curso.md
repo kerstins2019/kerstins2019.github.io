@@ -25,7 +25,7 @@ Se explicarán los 4 casos del alemán:
 
 > Saber que entender una frase es como construir un rompecabezas
 
-![](rompecabezas.png){ width=40% }\
+![](rompecabezas.PNG){ width=40% }\
 
 
 # Primer componentes del rompecabezas
@@ -47,7 +47,7 @@ Se explican los verbos:
 
 Este verbo **no necesita** argumentos.
 
-![](avalente.png){ width=30% }\
+![](avalente.PNG){ width=30% }\
 
 
 
@@ -55,7 +55,7 @@ Este verbo **no necesita** argumentos.
 
 Este verbo necesita **un argumento**.
 
-![](monovalente.png){ width=30% }\
+![](monovalente.PNG){ width=30% }\
 
 
 
@@ -63,7 +63,7 @@ Este verbo necesita **un argumento**.
 
 Este verbo necesita **dos argumentos**.
 
-![](bivalente.png){ width=30% }\
+![](bivalente.PNG){ width=30% }\
 
 
 
@@ -71,7 +71,7 @@ Este verbo necesita **dos argumentos**.
 
 Este verbo necesita **tres argumentos**.
 
-![](trivalente.png){ width=30% }\
+![](trivalente.PNG){ width=30% }\
 
 
 
