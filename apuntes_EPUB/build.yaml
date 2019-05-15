@@ -1,0 +1,19 @@
+
+pandoc_common:
+  
+  input_files:
+  - apuntes.md
+  filters:
+  - teaching_md
+  input_files:
+  - extensiones.md  
+
+pandoc_targets:
+  DOCX:
+    options: -t docx
+  EPUB3v:
+    options: -t epub3 --css=estilos.css
+  EPUB:
+    options: -t epub --css=estilos.css 
+  PDF:
+    options: -t latex -s o apuntes.pdf

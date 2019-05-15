@@ -1,0 +1,59 @@
+body { 
+	margin: 5%; 
+	text-align: justify; 
+	font-size: medium; 
+}
+
+
+h1 { 
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;  
+}
+h2 { 
+	text-align: center;
+	font-family: arial;
+	color: green;
+}
+h3 { 
+	text-align: left; 
+	
+}
+h4 { 
+	text-align: left; 
+}
+h5 { 
+	text-align: left; 
+}
+
+.title {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	color: crimson;
+	text-shadow: 2px 2px #ff0000; 
+}
+
+.author {
+	text-align: center;
+	color: green;
+	font-family: helvetica;
+}
+
+.date {
+	text-align: center;
+	color: orange;
+	font-family: sans-serif;
+}
+
+.cover-image{
+	align-content: center;
+	height: 200px;
+}
+
+#info{
+	text-shadow: 3px;
+	text-align: center;
+	color: purple;
+}
+
