@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/white.css">
+        <link rel="stylesheet" href="css/angular.css">
+        <link rel="stylesheet" href="css/repeating.css">
+    </head>
+    <body>
+    <div class="reveal">
+    <div class="slides">
+
+<!--Portada-->
+		<section data-background-color="#9b59b6">
+		<section>
+		<h1><font color="blue">DEFENSA PRÁCTICAS</font></h1>
+		<hr>
+		<h2>Kerstin Schwandtner</h2>
+		<h3>MLD</h3>
+		</section>
+		</section>
+<!--Fin portada-->
+
+<!--Indice-->
+    <section data-background-color="#9b59b6">
+    <section id="indice">
+		<h2>Índice</h2>
+      <ol>
+        <li><a href="#/eXe"><font color="blue">Descripción del equipo de investigación</font></a></li>
+        <li><a href="#/insta"><font color="blue">Tareas y trabajos desarrollados</font></a></li>
+        <li><a href="#/Entorno"><font color="blue">Aportación de las prácticas</font></a></li>
+        <li><a href="#/Export"><font color="blue">Valoración</font></a></li>
+      </ol>
+		</section>
+	</section>
+<!--Fin índice-->
+
+<!--1ª Columna vertical    <section data-background-color="white" data-background="./img/logoeXe.jpg" data-background-size="80%" > -->
+   <section data-background-color="#9b59b6">
+   		<section id="eXe">
+            <a href="#/1"><h2>Descripción del equipo de investigación</h2></a>
+        </section>
+<!--1ª traspa-->       
+        <section data-markdown>
+          <script type="text/template">
+### Innova-Docencia 164
+
+> El objetivo del proyecto es construir una versión e-learning de un método y
+diccionario didácticos para el aprendizaje del latín y el alemán basado en los resultados de los PIE 269:2018
+y 193:2017.
+          </script>
+        </section>
+<!--2ª traspa-->
+        <section data-markdown>
+          <script type="text/template">
+### Principales objetivos del proyecto
+
+* Construcción de los MEDs<!-- .element: class="fragment" data-fragment-index="1" -->
+* Evaluación de la calidad<!-- .element: class="fragment" data-fragment-index="2" -->
+* Evaluación empírica<!-- .element: class="fragment" data-fragment-index="3" -->
+* Puesta en marcha del EA<!-- .element: class="fragment" data-fragment-index="4" -->
+          </script>
+        </section>
+    </section>
+<!--Fin 1ª Columna vertical-->
+
+<!--2ª Columna vertical-->
+    <section data-background-color="#9b59b6">
+      <section id="insta">
+        <a href="#/1"><h2>Tareas y trabajos desarrollados</h2></a>
+      </section>
+<!--1ª traspa-->
+      <section>
+        <h3>Construcción de los MEDs</h3>
+
+        <ol>
+          <li class="fragment grow">
+            Elaboración de guiónes
+          </li>
+          <li class="fragment grow">
+            Elaboración de las videolecciones
+          </li>
+          <li class="fragment grow">
+            Elaboración de los OA en formato SCORM con eXeLearning
+          </li>
+        </ol>
+        </section>
+    </section>
+<!--Fin 2ª Columna vertical-->
+
+
+<!--3ª Columna vertical-->
+    <section data-background-color="#9b59b6">
+      <section id="Entorno">
+        <a href="#/1"><h2>Aportación de las prácticas</h2></a>
+      </section>
+<!--1ª traspa-->
+      <section>
+          <ol>
+            <li>Asignatura<font color="blue"> FUNDAMENTOS DEL E-LEARNING</font></li>
+            <li>Asignatura <font color="blue">PRODUCCIÓN DE MATERIALES EDUCATIVOS DIGITALES</font></li>
+            <li>Asignatura <font color="blue">EDICIÓN Y PUBLICACIÓN DIGITAL</font></li>
+            <li>Asignatura <font color="blue">TECNOLOGÍAS WEB</font></li>
+          </ol>
+          <p><em><font color="red">Lo perfecto es enemigo de lo bueno</font></em></p>
+      </section>
+    </section>
+<!--Fin 3ª Columna vertical-->
+
+
+<!--4ª Columna vertical-->
+      <section data-background-color="#9b59b6">
+        <section id="Export">
+          <a href="#/1"><h2>Valoración</h2></a>
+        </section>
+<!--1ª traspa-->
+      <section data-markdown>
+          <script type="text/template">
+            ![](./img/valoracion.png)\
+          </script>
+        </section>
+    </section>
+<!--Fin 4ª Columna vertical-->
+
+<!--6ª Columna vertical-->
+      <section data-background-color="#9b59b6">
+          <section>
+            <h3>GRACIAS</h3>
+          </section>
+      </section>
+<!--Fin 6ª Columna vertical-->
+
+<!--Pie-->   
+    </div>
+    </div>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script src="js/emojis.json"></script>
+
+        <script>
+            Reveal.initialize({
+              // Mostrar numero de slide.
+              slideNumber: true,
+
+              // Tipo de transicion.
+              transition: 'zoom',
+
+              // Shortcut for toggling between screen and PDF mode 
+              pdfExportShortcut: 'E',
+
+              dependencies: [
+		// Para interpretar Markdown en los elementos <section>
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    // Jump plugin
+                { src: 'plugin/jump/jump.js', async: true }
+
+              ]
+            });
+        </script>
+<!-- Printing and PDF exports -->
+      <script>
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+
+    </body>
+</html>
